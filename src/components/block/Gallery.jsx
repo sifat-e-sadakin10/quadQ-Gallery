@@ -47,8 +47,8 @@ const SortableItem = SortableElement(props => {
           }}
           className={
             props.showCheckboxes
-              ? "block absolute top-2 left-2  cursor-pointer   "
-              : "absolute top-2 left-2 hidden cursor-pointer  "
+              ? "block absolute top-2 left-2 cursor-pointer"
+              : "absolute top-2 left-2 hidden cursor-pointer"
           }
           type="checkbox"
           checked={props.clickedImage.includes(item)}

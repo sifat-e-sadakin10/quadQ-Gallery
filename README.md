@@ -1,9 +1,15 @@
-# React + Vite
+# QuadQ Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+QuadQ Gallery is a responsive image gallery built with React and Vite. It features image reordering, multiple image deletion, and the ability to set a feature image. This project demonstrates modern front-end development practices with React, Tailwind CSS, and more.
 
-Currently, two official plugins are available:
+## Live Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# quadQ-Gallery
+https://fancy-centaur-a1c79b.netlify.app/
+
+## Features
+
+- **Responsive Grid Layout**: A flexible and responsive grid layout to display images.
+- **Image Reordering**: Drag-and-drop functionality to reorder images using `react-sortable-hoc`.
+- **Multiple Image Deletion**: Select multiple images and delete them with ease.
+- **Feature Image**: Set a feature image by reordering. The first image in the list is the feature image.
+- **Smooth User Experience**: Transitions and animations for a polished look and feel.
